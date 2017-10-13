@@ -1,0 +1,44 @@
+<!DOCTYPE html><html><head>
+  <meta charset="utf-8"/>
+  <title>Byte Size</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet"/>
+</head>
+
+<body>
+  <header>
+    <!--<img src="https://s3.amazonaws.com/codecademy-content/courses/intermediate-javascript-requests/bytesize_logo.svg" class="logo"/>-->
+
+  </header>
+  <main id="main">
+    <div class="container">
+        <h1 class="text-center">URL shortener and expander</h1>
+        
+
+
+      <div id="form" class="form-group row" autocomplete="off">
+          <label for="input" class="col-sm-2 col-form-label">Enter URL</label>
+          <div class="col-sm-10">
+                <input type="text"  class="form-control" id="input" value="" placeholder="Enter URL"/>
+          </div>
+        
+        
+        </div>
+        <div class="form-group row">
+            <div class="offset-sm-2 col-sm-10">
+                    <button class="btn btn-lg btn-warning" id="shorten">Shorten</button>
+                    <button class="btn btn-lg btn-primary" id="expand">Expand</button>
+            </div>
+        </div>
+
+      <div  class="card">
+        <div class="card-block">
+            <p class="card-text" id="responseField"></p>
+        </div>
+      </div>
+
+    </div>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+  <script src="url_short_expand.js"></script>
